@@ -109,6 +109,7 @@ namespace MediaDevices
             catch (Exception ex)
             {
                 Trace.TraceError(ex.ToString());
+                throw;
             }
 
             // #define WMDM_E_NOTCERTIFIED                     0x80045005L
